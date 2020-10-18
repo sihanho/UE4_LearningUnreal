@@ -39,6 +39,17 @@
 							"output": "/actions/main/in/ResetVR"
 						}
 					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Teleport"
+						}
+					}
 				}
 			],
 			"poses": [
@@ -85,5 +96,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Third Person BP Game Template-13942748"
 }
